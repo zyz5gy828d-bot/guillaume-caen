@@ -1,119 +1,158 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caen - Guillaume le Conquérant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background: #f3ead7;
-      color: #1d2d44;
-      text-align: center;
-    }
+<title>Caen – Guillaume le Conquérant</title>
 
-    .hero {
-      background: #1d3557;
-      color: white;
-      padding: 35px 20px;
-    }
+<style>
+* {
+  box-sizing: border-box;
+}
 
-    .hero h1 {
-      margin: 0;
-      font-size: 38px;
-    }
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #f4efe5;
+  color: #202936;
+  text-align: center;
+}
 
-    .hero p {
-      margin-top: 10px;
-      font-size: 18px;
-    }
+.hero {
+  background: linear-gradient(135deg, #162d49, #294e72);
+  color: white;
+  padding: 55px 20px 48px;
+}
 
-    .content {
-      max-width: 650px;
-      margin: auto;
-      padding: 30px 20px;
-    }
+.crown {
+  font-size: 42px;
+  margin-bottom: 8px;
+}
 
-    .card {
-      background: white;
-      border-radius: 18px;
-      padding: 25px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.12);
-    }
+.hero h1 {
+  margin: 0;
+  font-size: 44px;
+  letter-spacing: 3px;
+}
 
-    .button {
-      display: block;
-      text-decoration: none;
-      padding: 18px;
-      margin: 15px 0;
-      border-radius: 12px;
-      font-size: 20px;
-      font-weight: bold;
-    }
+.hero h2 {
+  margin: 12px 0 5px;
+  font-size: 25px;
+  font-weight: normal;
+}
 
-    .video {
-      background: #8b1e2d;
-      color: white;
-    }
+.hero p {
+  margin: 8px 0 0;
+  font-size: 17px;
+  opacity: .9;
+}
 
-    .chat {
-      background: #1d3557;
-      color: white;
-    }
+.content {
+  max-width: 680px;
+  margin: auto;
+  padding: 28px 18px 45px;
+}
 
-    .small {
-      font-size: 15px;
-      color: #555;
-      margin-top: 25px;
-    }
-  </style>
+.card {
+  background: white;
+  margin: 18px 0;
+  padding: 28px 22px;
+  border-radius: 18px;
+  box-shadow: 0 5px 18px rgba(0,0,0,.10);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #1d3557;
+}
+
+.card p {
+  line-height: 1.6;
+  font-size: 17px;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 17px 15px;
+  margin-top: 15px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.video {
+  background: #b28a45;
+  color: white;
+}
+
+.chat {
+  background: #1d3557;
+  color: white;
+}
+
+.nfc {
+  font-size: 34px;
+}
+
+.small {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #66717d;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="hero">
-    <h1>CAEN</h1>
-    <p>Sur les pas de Guillaume le Conquérant</p>
-  </div>
+<section class="hero">
+  <div class="crown">♛</div>
+  <h1>CAEN</h1>
+  <h2>Sur les pas de Guillaume le Conquérant</h2>
+  <p>Une histoire à découvrir autrement</p>
+</section>
 
-  <div class="content">
+<main class="content">
 
-    <div class="card">
-      <h2>Découvrez son histoire</h2>
-      <p>
-        De duc de Normandie à roi d’Angleterre,
-        découvrez l’histoire de Guillaume le Conquérant.
-      </p>
+  <div class="card">
+    <div class="nfc">⚜</div>
+    <h2>Découvrez son histoire</h2>
+    <p>
+      De duc de Normandie à roi d’Angleterre,
+      découvrez l’histoire de Guillaume le Conquérant
+      et son lien avec Caen.
+    </p>
 
-      <a class="button video"
-         href="https://www.youtube.com/watch?v=rDAaHCGleUM"
-         target="_blank">
-        ▶ Regarder son histoire
-      </a>
+    <a class="button video"
+       href="https://www.youtube.com/watch?v=rDAaHCGleUM"
+       target="_blank">
+       ▶ Regarder son histoire
+    </a>
 
-      <a class="button chat"
-         href="#"
-         onclick="alert('Le dialogue avec Guillaume sera bientôt disponible.'); return false;">
-        💬 Dialoguer avec Guillaume
-      </a>
-    </div>
+    <a class="button chat"
+       href="#"
+       onclick="alert('Le dialogue avec Guillaume sera bientôt disponible.'); return false;">
+       💬 Dialoguer avec Guillaume
+    </a>
+  </div>
 
-    <div class="card">
-      <h2>Un souvenir connecté</h2>
-      <p>
-        Approchez simplement votre téléphone du magnet
-        pour découvrir l’histoire de Guillaume et de Caen.
-      </p>
-    </div>
+  <div class="card">
+    <div class="nfc">◉</div>
+    <h2>Votre souvenir devient vivant</h2>
+    <p>
+      Approchez simplement votre téléphone du magnet.
+      La puce NFC vous permet de prolonger votre visite
+      et de retrouver l’histoire de Guillaume et de Caen.
+    </p>
+  </div>
 
-    <p class="small">
-      Une expérience connectée créée par Chic is Wood
-    </p>
+  <p class="small">
+    Une expérience connectée créée par <strong>Chic is Wood</strong>
+  </p>
 
-  </div>
+</main>
 
 </body>
 </html>
